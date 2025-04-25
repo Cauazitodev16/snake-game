@@ -1,5 +1,3 @@
-# snake-game
-
 import datetime
 import os
 import time
@@ -7,7 +5,7 @@ from github import Github
 
 # Acesse seu repositório no GitHub usando o token pessoal
 token = "SEU_TOKEN_DO_GITHUB"
-repo_name = "usuario/snake-game-graph"  # Substitua pelo nome do seu repositório
+repo_name = "usuario/nome-do-repositorio"
 g = Github(token)
 repo = g.get_repo(repo_name)
 
